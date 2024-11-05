@@ -1,0 +1,61 @@
+#root {
+min-height: 100vh;
+height: 100%;
+background-image: url('/public/pexels-genesis-diaz-2048110213-29183398.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: grid;  
+justify-content: center;
+align-items: center;
+}
+
+
+
+.card {
+  overflow: auto;
+  max-width: 350px;
+  width: 100%;
+  padding: 2em 1em;
+  background-color: #ffffff40;
+  -webkit-backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(1.5px);
+  border-radius: 3em 0.1em 3em 0.1em;
+  box-shadow: 10px 10px 15px 10px #00000098;
+  
+}
+
+.card:hover{
+  box-shadow: 0 0 25px 0;
+}
+
+
+
+.card__title, .card__subtitle {
+text-align: center;
+}
+
+
+
+.card__body  {
+display: flex;
+align-items: center;
+}
+
+.card__temperature{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: .2em;
+}
+
+.card__button{
+  display:block;
+  margin: auto;
+  border-radius: 2em 0.1em 2em 0.1em;
+  border: black solid 1.5px;
+  background-color: rgb(201, 179, 179);
+  -webkit-backdrop-filter: brightness(1) blur(5px);
+  backdrop-filter: brightness (1) blur(5px);
+  
+}
+
